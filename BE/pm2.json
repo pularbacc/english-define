@@ -1,0 +1,9 @@
+{
+	"apps": [
+		{
+			"name": "search_be",
+			"script": "npm",
+			"args": "run start"
+		}
+	]
+}

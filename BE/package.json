@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "node app.js",
+    "build": "ncc build app.js -o dist -m",
+    "start": "node ./dist"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "jsdom": "^19.0.0",
+    "mariadb": "^3.0.0",
+    "sequelize": "^6.17.0",
+    "ws": "^8.5.0"
+  }
+}

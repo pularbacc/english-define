@@ -1,0 +1,18 @@
+{
+  "name": "fe",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --port 8002",
+    "build": "vite build --outDir dist",
+    "start": "serve -s dist -l 8002"
+  },
+  "dependencies": {
+    "serve": "^14.1.2",
+    "vue": "^3.2.33",
+    "vue-router": "^4.0.14"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "vite": "^2.9.5"
+  }
+}
